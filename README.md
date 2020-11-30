@@ -1,18 +1,27 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+And added support for [Electron](https://github.com/electron/electron).
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm install` or `yarn`
+
+To install all required packages, it will automatically downloads react, react-dom, react-router-dom and electron, with some dependencies.
+
+### `npm start` or `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+### `npm run dev` or `yarn dev`
+
+Runs the app in development mode and Opens it as an Electron app.
 
 ### `yarn test`
 

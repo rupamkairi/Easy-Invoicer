@@ -1,0 +1,11 @@
+.TextField {
+  display: flex;
+}
+
+.input-text-field {
+  outline: none;
+  margin: 0%;
+  padding: 0.5em 1em;
+  box-sizing: border-box;
+  border-radius: 10px 10px 0px 0px;
+}

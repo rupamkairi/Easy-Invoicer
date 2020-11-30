@@ -1,0 +1,10 @@
+:root {
+  --caption: 0.8em;
+}
+
+.form-error {
+  margin: 0%;
+  padding: 0%;
+  font-size: var(--caption);
+  color: var(--error)
+}
