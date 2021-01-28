@@ -1,6 +1,6 @@
 {
-  "name": "invoicer",
-  "version": "0.0.0",
+  "name": "easy-invoicer",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
