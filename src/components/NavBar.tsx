@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./General/Button";
-import Input from "./General/Input";
+import Input from "./General/Textbox";
 
 export default function NavBar() {
   return (

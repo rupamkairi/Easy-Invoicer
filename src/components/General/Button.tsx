@@ -8,11 +8,6 @@ interface Props {
   outline?: boolean;
 }
 
-const constructClassName = () => {
-  let base = "px-2 py-4 font-semibold whitespace-nowrap";
-  return base;
-};
-
 const Button: React.FC<Props> = ({
   value,
   onClick,

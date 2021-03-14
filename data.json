@@ -1,0 +1,20 @@
+{
+  "sender": {
+    "name": "Bob",
+    "date": "20 Oct, 2020"
+  },
+  "products": [
+    {
+      "name": "JSdot sticker set",
+      "price": "$4"
+    }
+  ],
+  "recipient": {
+    "name": "Alice",
+    "expected_delivery_date": "30 Oct, 2020"
+  },
+  "status": {
+    "status": "in_transit",
+    "location": "St harbour"
+  }
+}
