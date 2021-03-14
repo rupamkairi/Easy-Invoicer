@@ -9,9 +9,9 @@ interface Props {
 
 const Textbox: React.FC<Props> = ({ id, label, onChange, error }) => {
   return (
-    <div className={" p-2 "}>
+    <div className={" px-2 "}>
       <label htmlFor={id}>
-        <p className=" px-3 mb-2 font-semibold text-indigo-600 ">{label}</p>
+        <p className=" px-3 font-semibold text-indigo-600 ">{label}</p>
       </label>
       <input
         id={id}
@@ -22,7 +22,7 @@ const Textbox: React.FC<Props> = ({ id, label, onChange, error }) => {
         type="text"
         onChange={onChange}
       />
-      <p className=" px-3 mt-1 text-sm font-semibold text-red-500 ">{error}</p>
+      <p className=" px-3 text-sm font-semibold text-red-500 ">{error}</p>
     </div>
   );
 };

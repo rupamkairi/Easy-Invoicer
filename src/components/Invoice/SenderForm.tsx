@@ -5,10 +5,10 @@ import Textfield from "../General/Textfield";
 
 export default function SenderForm() {
   return (
-    <>
+    <div>
       <Textbox id="name" label="Name" error="some" />
       <Textfield id="description" label="Description" error="some" />
       <Datepicker id="date" label="Chose Date" error="some" />
-    </>
+    </div>
   );
 }
